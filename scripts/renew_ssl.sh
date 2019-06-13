@@ -4,6 +4,7 @@
 #need sudo
 
 cd /opt/letsencrypt
+sudo git checkout .
 sudo git pull
 sudo systemctl stop nginx
 ./letsencrypt-auto renew
